@@ -1,0 +1,30 @@
+name: Refresh profile cards
+
+# Pulls the public contribution calendar and re-renders every SVG in cards/.
+# Runs daily, on every push to main, and on demand from the Actions tab.
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths-ignore: ["cards/**", "data/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/fetch_contributions.py
+      - run: python scripts/render.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile cards [skip ci]"
+          file_pattern: "cards/*.svg data/contributions.json"

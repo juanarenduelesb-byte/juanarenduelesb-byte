@@ -1,0 +1,54 @@
+{
+  "github_user": "juanarenduelesb-byte",
+  "banner_text": "JUAN ALVAREZ",
+  "prompt": "juan@madrid",
+  "whoami": [
+    [
+      "name",
+      "Juan Álvarez-Rendueles"
+    ],
+    [
+      "role",
+      "Cybersecurity Strategy @ Alvarez & Marsal"
+    ],
+    [
+      "founder",
+      "Esclusa: AI consulting for regulated companies"
+    ],
+    [
+      "studying",
+      "Master in Corporate Finance @ IEB"
+    ],
+    [
+      "base",
+      "Madrid, Spain"
+    ],
+    [
+      "into",
+      "AI agents · security · regulation · fintech"
+    ]
+  ],
+  "building": [
+    {
+      "name": "esclusa",
+      "tag": "BUILDING",
+      "desc": "AI consulting for mid-sized, regulated companies in Spain. AI Act, DORA, AI risk.",
+      "stack": "Cloudflare · Claude · Weekly AI digest",
+      "url": "https://esclusa.eu"
+    },
+    {
+      "name": "ateneo",
+      "tag": "BUILDING",
+      "desc": "An educational social network in Spanish. Share what you learned, not what you consumed.",
+      "stack": "Supabase · Cloudflare Pages · Expo",
+      "url": "https://ateneo.online"
+    },
+    {
+      "name": "contactpay",
+      "tag": "2021 – 2024",
+      "desc": "Co-founded a fintech that turned smartphones into NFC payment terminals.",
+      "stack": "Fintech · NFC · P2P payments",
+      "url": ""
+    }
+  ]
+}

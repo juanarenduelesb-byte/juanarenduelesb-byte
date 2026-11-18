@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="292" height="210" viewBox="0 0 292 210" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<style>
+.f{opacity:0;animation:f .5s ease-out forwards}
+@keyframes f{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.p{opacity:0;transform-box:fill-box;transform-origin:center;animation:p .45s ease-out forwards}
+@keyframes p{0%{opacity:0;transform:scale(.2)}70%{opacity:1;transform:scale(1.15)}100%{opacity:1;transform:scale(1)}}
+.g{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:g .7s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes g{to{transform:scaleY(1)}}
+.cur{animation:b 1s steps(1) infinite}
+@keyframes b{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.f,.p,.g{opacity:1!important;transform:none!important;animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121821"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="accv" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="ban" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="292" y2="0"><stop offset=".05" stop-color="#2dd4bf"/><stop offset=".5" stop-color="#22d3ee"/><stop offset=".95" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect x=".5" y=".5" width="291" height="209" rx="12" fill="url(#bg)" stroke="#30363d"/>
+<line x1="0" y1="34" x2="292" y2="34" stroke="#30363d"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/><circle cx="62" cy="17" r="6" fill="#27c93f"/>
+<text x="146.0" y="22" fill="#7d8590" font-size="12" text-anchor="middle">contactpay</text>
+<text x="20" y="62" fill="#7d8590" font-size="12"><tspan fill="#3fb950">~/</tspan>contactpay</text>
+<rect x="176.8" y="49" width="95.2" height="20" rx="10" fill="none" stroke="#2dd4bf" stroke-opacity=".6"/>
+<text x="224.4" y="63" fill="#2dd4bf" font-size="11" text-anchor="middle" font-weight="700">2021 – 2024</text>
+<text class="f" style="animation-delay:0.50s" x="20" y="98" fill="url(#acc)" font-size="24" font-weight="700">contactpay</text>
+<text class="f" style="animation-delay:0.65s" x="20" y="124" fill="#e6edf3" font-size="12">Co-founded a fintech that turned</text>
+<text class="f" style="animation-delay:0.65s" x="20" y="142" fill="#e6edf3" font-size="12">smartphones into NFC payment</text>
+<text class="f" style="animation-delay:0.65s" x="20" y="160" fill="#e6edf3" font-size="12">terminals.</text>
+<line x1="20" y1="172" x2="272" y2="172" stroke="#30363d"/>
+<text x="20" y="194" fill="#7d8590" font-size="11">Fintech · NFC · P2P payments</text>
+</svg>
