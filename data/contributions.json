@@ -1,10 +1,10 @@
 {
  "user": "juanarenduelesb-byte",
- "updated": "2026-11-20",
- "total": 5,
- "active_days": 3,
- "current_streak": 2,
- "longest_streak": 2,
+ "updated": "2026-11-21",
+ "total": 6,
+ "active_days": 4,
+ "current_streak": 3,
+ "longest_streak": 3,
  "best_day": {
   "date": "2026-11-18",
   "count": 3,
@@ -23,14 +23,14 @@
   "2026-08": 0,
   "2026-09": 0,
   "2026-10": 0,
-  "2026-11": 4
+  "2026-11": 5
  },
  "weekday": [
   0,
   0,
   4,
   1,
-  0,
+  1,
   0,
   0
  ],
@@ -1882,6 +1882,11 @@
   },
   {
    "date": "2026-11-20",
+   "count": 1,
+   "level": 2
+  },
+  {
+   "date": "2026-11-21",
    "count": 0,
    "level": 0
   }
